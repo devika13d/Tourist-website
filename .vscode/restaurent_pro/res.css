@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+}
+#head{
+    position: sticky;
+}
+
+header {
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 23px;
+    margin-top: -100px;
+    box-shadow: 0 -0.5rem 1rem #d8d8d882;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+header .navbar a {
+    padding: 0 1.5rem;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+
+header .navbar a:hover {
+    color: red;
+}
+
+header #togg {
+    display: none;
+}
+
+header .fa-bars {
+    font-size: 16px;
+      color: #ff00000a;
+    border-radius: 5px;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+}
+
+.navbar i {
+    margin-right: -17px;
+}
+
+.navbar:hover {
+    color: red;
+    margin-left: 69px;
+}
+h5 button{
+    border: none;
+    width: 99px;
+    font-size: 16px;
+    height: 32px;;
+    color: #fff;
+    background: black;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
+.use li{
+    list-style: none;
+    float: left;
+    transform: translate(-210px, -9px);
+    font-weight: bolder;
+    padding-right: 23px;
+}
+.use li:hover{
+    margin-top: -7px;
+    cursor: pointer;
+}
+.border p{
+    background: rgb(32, 33, 36);
+    color: #fff;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 635px;
+    margin-bottom: 46px;
+
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.border button{
+    border: none;
+    border-radius: 23px;
+    color: #fff;
+    background: rgb(228, 0, 43);
+    margin-bottom: 25px;
+    padding-left: 21px;
+    height: 37px;
+    padding-right: 25px;
+    padding-top: 0px;
+    transform: translate(1116px, -98px);
+}
+.container img{
+    transform: translate(0px, -190px);
+}
+.menu li{
+    list-style: none;
+    font-family: "National 2 Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: rgb(73, 73, 73);
+    transform: translate(121px, -119px);
+    background-attachment: fixed;
+    position: sticky;
+}
+.menu li:hover{
+    color: black;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+.menu li a:hover{
+    color: black;
+}
+.menu p{
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 37px;
+    color: rgb(0, 0, 0);
+    transform: translate(-1px, 26px);
+}
+.search-bar{
+    transform: translate(372px, -670px);
+    
+}
+.search-type{
+    border: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 21px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+::placeholder{
+    padding-left: 20px;
+}
+.search-type:hover{
+    border-color: rgba(209, 179, 31, 0.721);
+}
+#sub{
+    background-color: #f8f7f5;;
+    margin-top: 18px;
+    height: 1242px;
+}
+#sub img{
+    height: 285px;
+    margin-bottom: 20px;
+    margin-top: 144px;
+    margin-left: 33px;
+    border-radius: 3.61px;
+}
+#sub h2{
+    padding-left: 33px;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+.items p{
+    transform: translate(39px, -171px);
+
+}
+.items img{
+    transform: translate(53px, -267px);
+    width: 14px;
+}
+#sub button{
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    color: #fff;    
+    cursor: pointer;
+    border-radius: 37px;
+    width: 166px;
+    height: 39px;
+    transform: translate(127px,-373px);
+    
+}
+#sub button:hover{
+    background-color:rgb(204, 24, 24);
+    
+}
+#button{
+    transform: translate(429px, -1035px);
+    
+    
+}
+#butto img {
+    height: 285px;
+    margin-bottom: 20px;
+    margin-top: -474px;;
+    margin-left: 42px;
+    border-radius: 3.61px;
+}
+.set button{
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 37px;
+    width: 166px;
+    height: 39px;
+    transform: translate(136px, -242px);
+}
+.first button{
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 37px;
+    width: 166px;
+    height: 39px;
+    transform: translate(37px, 82px);
+}
+.first img{
+    transform: translate(2px, 81px);
+}
+.first-p button{
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 37px;
+    width: 166px;
+    height: 39px;
+    transform: translate(37px, 17px);
+}
+.first-p img{
+    transform: translate(2px, 15px);
+}
+.set button:hover{
+    background-color:rgb(204, 24, 24);
+}
+.left img{
+    height: 285px;
+    margin-bottom: 20px;
+    margin-top: 338px;
+    margin-left: 475px;
+    border-radius: 3.61px;
+}
+.set img{
+    width: 14px;
+    transform: translate(232px, -661px);
+}
+.feature-img img {
+    width: 100%;
+
+}
+
+.feature-img {
+    position: relative;
+}
+
+.rating {
+    padding: 3px;
+    float: right;
+    background: #fff;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+}
+
+#features .fa {
+    font-size: 15px;
+    color: #724707;
+}
+
+.feature-details {
+    padding: 20px;
+    text-align: justify;
+}
+
+.feature-details h4 {
+    font-size:18px;
+    margin-top: -193px;
+}
+
+.feature-details .fa {
+    margin-right: 5px;
+}
+
+.feature-box {
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    width: 288px;
+    height:360px;
+    margin-left: -360px;
+    margin-top: -95px;
+}
+.navbar h4{
+    margin-top:16px;
+    margin-left: 175px;
+}
+.navbar img{
+    width: 7%;
+    transform: translate(-231px,10px);
+}
+.row{
+    transform: translate(299px, 71px);
+}
+#second{
+    margin-left: 496px;
+    margin-top: -78px;
+}
+#second h2{
+    margin-top: -947px;
+}
+.footer{
+    background:black ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    text-align: center;
+    margin-top: 33px;
+    width: 128%;
+    margin-right: 19%;
+    margin-left: 14%;
+}
+.list img{
+    transform: translate(10px, -15px);
+}
+.card-body button{
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    color: #fff;
+    height: 43px;
+    cursor: pointer;
+    border-radius: 37px;
+    width: 166px;
+   
+    
+}
+.card-body button:hover{
+    background-color:rgb(204, 24, 24);
+}
+.card-body img{
+    transform: translate(-35px, 0px);
+}
